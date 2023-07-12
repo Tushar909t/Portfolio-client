@@ -42,10 +42,10 @@ const Intro = () => {
         <img src={Vector2} alt="Jihan" />
         <img src={Boy} alt="Jihan" />
         <img src={Glassesimoji} alt="Jihan" />
-        <div style={{ top: "-4%", left: "68%" }}>
+        <div className="Floating-Div" style={{ top: "-4%", left: "68%" }}>
           <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
         </div>
-        <div style={{ top: "18rem", left: "0" }}>
+        <div className="Floating-Div" style={{ top: "18rem", left: "0" }}>
           <FloatingDiv image={Thumbup} txt1="Best Design" txt2="Award" />
         </div>
         {/* Blur*/}

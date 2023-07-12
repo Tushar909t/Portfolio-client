@@ -13,7 +13,7 @@ import { useSelector } from "react-redux";
 const Portfolio = () => {
   const darkMode = useSelector((state) => state.dark.DarkMode);
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="Portfolio">
       {/* heading */}
       <span style={{ color: darkMode ? "#fff" : "" }}>Recent Project</span>
       <span>Portfolio</span>

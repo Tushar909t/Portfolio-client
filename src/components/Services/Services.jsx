@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 const Services = () => {
   const darkMode = useSelector((state) => state.dark.DarkMode);
   return (
-    <div className="services">
+    <div className="services" id="Services">
       {/*left side*/}
       <div className="awesome">
         <span style={{ color: darkMode ? "#fff" : "" }}>My Awesome</span>

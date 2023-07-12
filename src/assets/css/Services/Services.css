@@ -45,3 +45,27 @@
   top: 13rem;
   left: -16rem;
 }
+
+@media screen and (max-width: 480px) {
+  .services {
+    margin-top: 0;
+    height: 66rem;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 0;
+  }
+  .awesome {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+    top: 90rem;
+    left: 2rem;
+  }
+  .cards > * {
+    position: static;
+  }
+}

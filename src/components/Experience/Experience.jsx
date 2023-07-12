@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 const Experience = () => {
   const darkMode = useSelector((state) => state.dark.DarkMode);
   return (
-    <div className="experience">
+    <div className="experience" id="Experience">
       <div className="achievement">
         <div className="circle">8+</div>
         <span style={{ color: darkMode ? "#fff" : "" }}>years</span>

@@ -29,7 +29,22 @@
   margin-right: 4rem;
 }
 
-.n-list > ul > li:hover {
+.n-list > ul > a:hover {
   cursor: pointer;
   color: var(--jadegreen);
+}
+
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
+  .n-left {
+    flex: 6 1;
+    align-items: center;
+    display: flex;
+    gap: 4rem;
+  }
+  .n-button {
+    display: none;
+  }
 }

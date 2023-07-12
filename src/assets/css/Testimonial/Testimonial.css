@@ -56,3 +56,20 @@
 .t-wrapper .swiper-pagination-bullet-active {
   background: var(--jadegreen);
 }
+@media screen and (max-width: 480px) {
+  .t-wrapper {
+    padding: 0;
+  }
+  .tesimonial {
+    width: auto;
+    height: 10rem;
+  }
+  .tesimonial span {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+  .tesimonial > img {
+    width: 70px;
+    height: 70px;
+  }
+}
